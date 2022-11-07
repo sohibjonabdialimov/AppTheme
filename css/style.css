@@ -1,0 +1,185 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+}
+.primary-text{
+  color: #13d5d5;
+}
+#main-header{
+  height:75px;
+  border-bottom: 1px solid #13d5d5;
+}
+#main-header h1{
+  margin-top: 12px;
+}
+/* NAVBAR */
+#navbar{
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+#navbar li{
+  display: inline-block;
+  padding-right: 20px;
+}
+#navbar a{
+  color: #888;
+}
+.right{
+  float: right;
+}
+#navbar li.activ a, #navbar a:hover{
+  color: #13d5d5;
+  border-bottom: 3px solid #13d5d5;
+  padding-bottom: 3px;
+}
+/* SHOWCASE */
+#showcase{
+  background: url("../img/phone-img.jpg") no-repeat center; 
+  border-bottom: 1px solid #13d5d5;
+  margin-bottom: 30px;
+  height: 500px;
+  padding-top:200px;
+}
+#showcase h1{
+  font-size: 50px;
+  margin: 0;
+  padding-bottom: 20px;
+  color: #fff;
+}
+#showcase p{
+  color: #ccc;
+  margin: 0;
+}
+.showcase-content{
+  background-color: #333;
+  padding: 50px;
+  width: 700px;
+  border-radius: 90px;
+  margin: auto;
+  text-align: center;
+  opacity: 0.8;
+}
+/* FEATURES */
+#features{
+  text-align: center;
+  height: 510px;
+  /* padding-bottom: 50px; */
+}
+#features h2{
+  font-size: 35px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+#features p{
+  color: #888;
+}
+#features .fa{
+  font-size: 60px;
+  color: #13d5d5;
+}
+img{
+  width: 100%;
+}
+#info{
+  /* margin-top: 100px; */
+  background: #333 url("../img/rain-drop.webp") no-repeat;
+  height: 600px;
+  text-align: center;
+  color: #fff;
+}
+#info h2{
+  font-size: 35px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+#info ul{
+  padding: 0;
+}
+.top{
+  margin-top: 120px;
+}
+#info li{
+  line-height: 2em;
+  font-size: 20px;
+}
+/* company */
+#company{
+  background:#333;
+  height: 200px;
+  color: #fff;
+  padding: 10px 0;
+
+}
+#company h4{
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+#company ul{
+  padding: 0;
+  line-height: 2em;
+}
+#company input[type="email"]{
+  padding: 7px;
+}
+#company button{
+  background: #222;
+  color: #fff;
+  padding: 10px;
+  border: 0;
+}
+#main-footer{
+  height: 60px;
+  text-align: center;
+  background-color: #3e9a9a;
+  color: #fff;
+}
+#main-footer p{
+  margin: 0;
+  line-height: 60px;
+}
+@media only screen and (max-width:960px){
+
+}
+
+@media only screen and (max-width:768px){
+  
+}
+
+@media only screen and (max-width:576px){
+  #main-header{
+    text-align: center;
+    height: 150px;
+  }
+  .right{
+    float: none;
+  }
+  #showcase{
+    height: 400px;
+    padding-top: 150px;
+  }
+  #showcase h1{
+    font-size: 30px;
+    padding-bottom: 15px;
+  }
+  #showcase .showcase-content{
+    width: 450px;
+    padding: 30px;
+  }
+  #showcase p{
+    font-size: 15px;
+  }
+  #features{
+    height: 1240px;
+  }
+  #info{
+    height: 800px;
+  }
+  .top{
+    margin-top: 0;
+  }
+  #company{
+    height: 500px;
+  }
+}
